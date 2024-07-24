@@ -58,6 +58,38 @@ main {
     position: relative;
 }
 
+/* Reasons section */
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 280%;
+    text-align: center
+}
+
+#benefits {
+    margin: 20px 0; 
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits-physical > div, #benefits-mental > div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/* Cover text over hero image */
 #cover-text {
     background-color: rgba(241,109,107, 0.7);
     font-size: 130%;
@@ -71,6 +103,11 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+/* Circle image in reasons */
+#cirle-cover-bg {
+    background-image: url(../images/reasons-image.webp);
 }
 
 /* footer */
@@ -88,13 +125,9 @@ main {
     color: #3a3a3a;
 }
 
-/* CLASSES BELOW */
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
-/* ID BELOW */
 
 #menu {
     font-size: 110%;
