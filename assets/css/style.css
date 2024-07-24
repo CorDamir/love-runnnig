@@ -52,6 +52,9 @@ main {
     margin-top: 47px;
     /* flexbox styling to push footer to bottom */
     flex: 1 0 auto;
+    /* flex for signup page elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -217,6 +220,51 @@ nav {
     font-size: 2rem;
 }
 
+/* SIGNUP PAGE */
+#signup {
+    background: url(../images/signup-image.webp) no-repeat 75% center / cover;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form {
+    padding: 30px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    background: transparent;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+    padding: 0 5px;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
+
 /* Media quiery: landscape phones */
 
 @media screen and (min-width: 576px) {
@@ -286,6 +334,28 @@ nav {
 
     #photos {
         column-count: 3;
+    }
+
+    /* for signup page */
+    #signup {
+        position: relative;
+        background-position: center;
+    }
+
+    #signup-form {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        max-width: 400px;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+    .text-input:hover{
+        border-color: #f16c6b;
     }
 }
 
