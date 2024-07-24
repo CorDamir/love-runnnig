@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /* Changing default styles with universal selector */
 * {
     padding: 0;
@@ -29,4 +32,19 @@ main {
 /* footer */
 footer {
     background-color: orange;
+}
+
+/* CLASSES BELOW */
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.oswald-300 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
