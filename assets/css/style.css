@@ -54,15 +54,18 @@ footer {
 
 /* CLASSES BELOW */
 
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
-.oswald-300 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+/* ID BELOW */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
 }
