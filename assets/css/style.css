@@ -46,6 +46,7 @@ h1 {
 /* main content */
 main {
     background-color: lightblue;
+    margin-top: 47px;
     /* flexbox styling to push footer to bottom */
     flex: 1 0 auto;
 }
